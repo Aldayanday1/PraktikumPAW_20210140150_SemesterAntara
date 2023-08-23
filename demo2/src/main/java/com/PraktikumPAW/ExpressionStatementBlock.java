@@ -1,6 +1,6 @@
 package com.PraktikumPAW;
 
-// import java.sql.Date;
+import java.util.Date;
 
 public class ExpressionStatementBlock {
     public static void main(String[] args) {
@@ -8,16 +8,16 @@ public class ExpressionStatementBlock {
         value = 10;
         System.out.println(value = 100);
 
-        // assignment statement
+        // pernyataan assignment
         double aValue = 8933.234;
-        // Increment statement
+        // pernyataan penambahan
         aValue++;
         System.out.println(aValue);
-        // method invocation statement
+        // pernyataan pemanggilan metode
         System.out.println("Hello World");
-        // Object creation statement
-        // Date date = new Date();
-        // System.out.println(date);
+        // pernyataan pembuatan objek
+        Date date = new Date();
+        System.out.println(date);
     }    
 }
 
